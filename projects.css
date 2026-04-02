@@ -37,7 +37,7 @@ section.projects{
     grid-area: links;
 
     font-style: italic;
-    color: var(--accent-primary)
+    color: var(--accent-secondary)
 }
 .proj-links a{
     text-decoration: underline;
