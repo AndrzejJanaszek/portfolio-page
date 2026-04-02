@@ -1,0 +1,50 @@
+body{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+main{
+    margin: 10vh 0;
+}
+
+section.projects{
+    margin-top: 2rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.project{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+    "name links"
+    "tech tech"
+    "desc desc";
+    gap: 4px 10px;
+}
+
+.proj-name{
+    grid-area: name;
+    color: var(--text-primary);
+    font-weight: bold;
+}
+.proj-tech{
+    grid-area: tech;
+
+    color: var(--accent-muted)
+}
+.proj-links{
+    grid-area: links;
+
+    font-style: italic;
+    color: var(--accent-primary)
+}
+.proj-links a{
+    text-decoration: underline;
+}
+
+.proj-desc{
+    grid-area: desc;
+    color: var(--text-secondary);
+    
+}

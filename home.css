@@ -1,0 +1,37 @@
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    place-items: center;
+
+    color: var(--text-secondary);
+}
+
+body a{
+    color: var(--accent-muted);
+}
+
+main{
+    display: grid;
+    gap: 2rem;
+}
+
+section.info{
+    display: grid;
+    gap: 2.5rem;
+}
+
+section.contact{
+    display: grid;
+    gap: 1rem;
+}
+
+.tech-box{
+    display: grid;
+    gap: 1rem;
+}
+
+i{
+    /* color: var(--accent-secondary); */
+}

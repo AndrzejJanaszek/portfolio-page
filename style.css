@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('./fonts/CourierPrime/CourierPrime-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('./fonts/CourierPrime/CourierPrime-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('./fonts/CourierPrime/CourierPrime-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('./fonts/CourierPrime/CourierPrime-Italic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* --------------------------------------------------------------------------- */
+
+:root{
+  --text-primary: #e7e7e7;
+  --text-secondary: #cdcdcd;
+  --text-muted: #8a8a8a;
+
+  --accent-primary: #387cf2;
+  --accent-secondary: #76a1e2;
+  --accent-muted: #58719d;
+
+  --bgc: #1e1d1d;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Courier Prime';
+    background-color: var(--bgc);
+
+    color: var(--text-primary);
+}
+
+body{
+    margin: 0 auto;
+    font-size: 2rem;
+    max-width: 800px;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+a{
+    /* text-decoration: none; */
+    color: inherit;
+}
